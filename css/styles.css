@@ -1,0 +1,82 @@
+.body {
+  background-image: url("../img/bg.png");
+}
+
+.main_menu {
+    width: 15%; /* Set a width if you like */
+	list-style-type: none;
+	float: left;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: block;
+    flex-wrap: wrap;
+    white-space: wrap;
+	text-align: center;
+}
+
+.main_menu a {
+    background-image: url('../img/buttons/btn_menu.png');
+	background-repeat: no-repeat;
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+	color: #ECEB92;
+	transition: 0.5s linear;
+}
+
+.main_menu a:hover {
+    background-image: url('../img/buttons/btn_menu_hover.png');
+	background-repeat: no-repeat;
+	color: #FCFBA6;
+}
+
+.main_menu a.main_menu_item_active {
+    background-image: url('../img/buttons/btn_menu_active.png');
+	background-repeat: no-repeat;
+    color: #ECEB92;
+}
+
+.main_menu_item {
+  color: #424242;
+  display: flex;
+  padding: 0.5rem 1.25rem;
+  text-decoration: none;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+}
+
+.home_content {
+	text-align: center;
+}
+
+.lore_content {
+	text-indent: 20px;
+	text-align: justify;
+	padding-right: 3%;
+}
+
+section {
+	display: block; 
+    width: 75%;
+    height: 100%;
+    float: right;
+	background-image: url('../img/content/block.png');
+	opacity: 0.85;
+	background-repeat: no-repeat;
+	object-fit: fill;
+	margin: 1 5%;
+	position: fixed;
+	top: 1.9%;
+	left: 20%;
+	padding-top: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-align: justify;
+}
